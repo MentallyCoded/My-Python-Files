@@ -17,12 +17,15 @@ while x < 50 and y < 100:
     x = x + 1
     y = y + 1
     print(garbageCan_1)
+
     time.sleep(3)
 
     print(Garbage_Can)
+
     time.sleep(3)
 
     print(garbageCan_2)
+
     time.sleep(3)
 
 
@@ -38,3 +41,6 @@ for x in range(0, 20):
     time.sleep(3)
 
     print(garbageCan_2)
+
+for x in range(0, 100):
+    print('task complete')
